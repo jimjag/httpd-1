@@ -21,8 +21,8 @@ RUN set -eux; \
 	; \
 	apt-get dist-clean
 
-ENV HTTPD_VERSION 2.4.65
-ENV HTTPD_SHA256 58b8be97d9940ec17f7656c0c6b9f41b618aac468b894b534148e3296c53b8b3
+ENV HTTPD_VERSION 2.4.66
+ENV HTTPD_SHA256 94d7ff2b42acbb828e870ba29e4cbad48e558a79c623ad3596e4116efcfea25a
 
 # https://httpd.apache.org/security/vulnerabilities_24.html
 ENV HTTPD_PATCHES=""
